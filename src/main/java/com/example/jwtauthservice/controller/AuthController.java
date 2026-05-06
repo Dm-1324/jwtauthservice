@@ -1,4 +1,4 @@
-package com.example.jwtauthservice.cotroller;
+package com.example.jwtauthservice.controller;
 
 import com.example.jwtauthservice.entity.dto.JwtResponse;
 import com.example.jwtauthservice.entity.dto.LoginRequest;
