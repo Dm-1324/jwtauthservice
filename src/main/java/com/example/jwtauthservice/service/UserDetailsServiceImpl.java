@@ -2,6 +2,7 @@ package com.example.jwtauthservice.service;
 
 import com.example.jwtauthservice.entity.User;
 import com.example.jwtauthservice.repository.UserRepository;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
@@ -15,6 +16,7 @@ import java.util.stream.Collectors;
 @Service
 public class UserDetailsServiceImpl implements UserDetailsService {
 
+    @Autowired
     UserRepository userRepository;
 
     @Override
